@@ -15,35 +15,41 @@
 </head>
 <body>
   <div class="container">
+    <div class="row">
+
     <!-- Menu balk moet nog responsive gemaakt worden -->
       <ul class="navbar">
-        <a href="" class="btn">HackerNews</a>
-        <button class="btn">Categories</button>
-        <input class="search" type="text" placeholder="Search...">
-        <button class="btn">User</button>
-        <button class="btn">Inbox</button>
-      </ul>
-
+        <a href="" class="btn home">HackerNews</a>
+	      <a href="" button class="btn categories">Categories</button>
+	      <input class="search" type="text" placeholder="Search...">
+				<a href="" button class="btn user">User</button>
+      	<a href="" button class="btn inbox">Inbox</button>
+			</div>
+		</ul>
     <!-- de nieuws onderwerpen worden niet goed ingedeeld op de site, een fix is nodig hier -->
     <br>
-    <div class="col-4">
-      <a href=""><h4 class="article">European Central Bank Shuts Down 'BIRD Portal' After Getting Hacked</h4></a>
-      <p>The European Central Bank (ECB) confirmed Thursday that it had been hit by a cyberattack that involved...</p>
-    </div>
+		<div class="row">
+
+      <div class="col-xs-4 order-md-8">
+        <a href=""><h4 class="article">European Central Bank Shuts Down 'BIRD Portal' After Getting Hacked</h4></a>
+        <p>The European Central Bank (ECB) confirmed Thursday that it had been hit by a cyberattack that involved...</p>
+      </div>
+		</div>
 
     <br>
+		<div class="row">
 
-    <div class="col-4">
-      <a href=""><h4 class="article">Patches for 2 Severe LibreOffice Flaws Bypassed — Update to Patch Again</h4></a>
-      <p>If you are using LibreOffice, you need to update it once again. LibreOffice has released the latest version...</p>
-
-    </div>
-
+      <div class="col-xs-4 order-md-8">
+        <a href=""><h4 class="article">Patches for 2 Severe LibreOffice Flaws Bypassed — Update to Patch Again</h4></a>
+        <p>If you are using LibreOffice, you need to update it once again. LibreOffice has released the latest version...</p>
+      </div>
+		</div>
     <br>
+	</div>
 
-    <button class="btn btn-dark">About</button>
+    <button class="btn about">About</button>
     &nbsp;
-    <button class="btn btn-dark">Contact</butto
+    <button class="btn contact">Contact</butto
 
 
   <!-- Optional JavaScript -->
