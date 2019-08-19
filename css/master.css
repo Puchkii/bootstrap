@@ -22,9 +22,9 @@
 }
 
 .navbar{
-  border-radius: 25px;
 	border-style: outset;
 	border-width: thin;
+	color: white;
 }
 
 .about:hover{
