@@ -4,7 +4,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="./pics/hn_logo.png" type="image/icon type">
+  <link rel="icon" href="./img/hn_logo.png" type="image/icon type">
   <!-- Selfmade CSS -->
   <link rel="stylesheet" href="./css/master.css">
 
@@ -14,46 +14,77 @@
   <title>HackerNews</title>
 </head>
 <body>
-    <div class="row">
 
-    <!-- navbar moet nog responsive gemaakt worden en moet in de center-->
-    	<ul class="navbar">
-				<div class="">
-        	<a href="" button class="btn home">HackerNews</button></a>
-	      	<a href="" button class="btn categories">Categories</button></a>
-
-	      	<input class="search" type="text" placeholder="Search...">
-
-					<a href="" button class="btn user">User</button></a>
-					<a href="" button class="btn inbox">Inbox</button></a>
-				</div>
+	<!-- navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="index.html" class="navbar-brand"><img src="./img/the-hacker-news.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Services</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Team</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Connect</a>
+					</li>
+				</ul>
 			</div>
+		</div>
+
+	</nav>
+
+	<!-- image slider -->
+	<div class="carousel slide" id="slides" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
 		</ul>
-
-		<!-- de nieuws onderwerpen worden niet goed ingedeeld op de site, een fix is nodig hier -->
-		<div class="container">
-
-    <br>
-		<div class="row">
-      <div class="col-xs-4 order-md-8">
-        <a href=""><h4 class="article">European Central Bank Shuts Down 'BIRD Portal' After Getting Hacked</h4></a>
-        <p>The European Central Bank (ECB) confirmed Thursday that it had been hit by a cyberattack that involved...</p>
-      </div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="./img/background.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="./img/background2.jpg">
+			</div>
+			<div class="carousel-item">
+				<img src="./img/background3.jpg">
+			</div>
 		</div>
 
-    <br>
-		<div class="row">
-      <div class="col-xs-4 order-md-8">
-        <a href=""><h4 class="article">Patches for 2 Severe LibreOffice Flaws Bypassed — Update to Patch Again</h4></a>
-        <p>If you are using LibreOffice, you need to update it once again. LibreOffice has released the latest version...</p>
-      </div>
-		</div>
-    <br>
 	</div>
 
-    <a href="" button class="btn about">About</button></a>
-    &nbsp;
-    <a href="" button class="btn contact">Contact</button></a>
+	<!-- jumbotron -->
+
+
+	<!-- welcome section -->
+
+
+	<!-- Three column section -->
+
+
+	<!-- two column section -->
+
+
+	<!-- fixed background -->
+
+
+	<!-- emoji section -->
+
+
+	<!--  -->
 
 
   <!-- Optional JavaScript -->
